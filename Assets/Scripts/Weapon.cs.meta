@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 60bc75d2c5ad30f45927310bb22e3ff3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - shoot_point: {instanceID: 0}
+  - muzzle_flash: {instanceID: 0}
+  - shoot_sound: {fileID: 8300000, guid: bec1b02240d3af84ba78844a1b17b64b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
