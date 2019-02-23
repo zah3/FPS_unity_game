@@ -12,6 +12,20 @@ public class PlayerHealth : MonoBehaviour {
 
     
 	public void TakeDamage () {
+       
+        
         health_bar.fillAmount = current_health / start_health;
 	}
+
+   
+
+    public void ApplyDamage(float damage)
+    {
+        current_health -= damage;
+        if (current_health <= 0f) Destroy(gameObject);
+        TakeDamage();
+    }
+
+
+   
 }
