@@ -18,6 +18,7 @@ public class EnemyHealthController : MonoBehaviour
         {
             enemy.GetComponent<basic_enemy>().dead();
             Object.Destroy(this);
+            //Destroy(this);
                 }
         // GameObject box_particles = Instantiate(box_particles);
 
